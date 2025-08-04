@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Проект Поглотитель — Наследие Бездны</title>
+  <!-- Link the site stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Import a Google font for nicer typography; if the font cannot be loaded the browser will fall back to sans-serif. -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hero/Banner section -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Проект Поглотитель</h1>
+      <p class="hero-subtitle">Наследие Бездны. Новый класс. Эпические подземелья. Захватывающие рейды. Глобальные механики.</p>
+    </div>
+  </header>
+
+  <!-- Overview section -->
+  <section id="overview" class="section overview">
+    <h2>Что вас ждёт на сервере «Поглотитель»</h2>
+    <div class="overview-grid">
+      <div class="overview-item">
+        <img src="assets/new_class.png" alt="Новый класс" />
+        <h3>Новый класс</h3>
+        <p>Абсолютно новый класс «Поглотитель Бездны» с тремя специализациями и эксклюзивными способностями.</p>
+      </div>
+      <div class="overview-item">
+        <img src="assets/dungeons_icon.png" alt="Уникальные подземелья" />
+        <h3>Уникальные подземелья</h3>
+        <p>Пять уникальных подземелий уровня 60–70, полностью переработанные с эфирными механиками.</p>
+      </div>
+      <div class="overview-item">
+        <img src="assets/raids_icon.png" alt="Рейды" />
+        <h3>Масштабные рейды</h3>
+        <p>Три масштабных рейда на 10–25 человек против древних повелителей искривлённой реальности.</p>
+      </div>
+      <div class="overview-item">
+        <img src="assets/ethereal_rift.png" alt="Боевые трюки" />
+        <h3>Боевые трюки</h3>
+        <p>Инновационные боевые умения: Эфирный разлом, Кольцо Поглощения, Якорь Бездны.</p>
+      </div>
+      <div class="overview-item">
+        <img src="assets/pvp_icon.png" alt="PvP-режимы" />
+        <h3>PvP‑режимы</h3>
+        <p>Новые PvP‑режимы и арены с динамическими эфириальными зонами.</p>
+      </div>
+      <div class="overview-item">
+        <img src="assets/progression_icon.png" alt="Прогресс и коллекции" />
+        <h3>Прогресс и коллекции</h3>
+        <p>Система наследия и коллекционного прогресса: титулы, маунты, косметика.</p>
+      </div>
+      <div class="overview-item">
+        <img src="assets/community_icon.png" alt="Ивенты и сообщество" />
+        <h3>Ивенты и сообщество</h3>
+        <p>Регулярные ивенты и турниры, тёплое сообщество в Discord и на форуме.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- New class section -->
+  <section id="class" class="section class-section">
+    <div class="content-row">
+      <div class="image-block">
+        <img src="assets/new_class.png" alt="Поглотитель Бездны" />
+      </div>
+      <div class="text-block">
+        <h2>Новый класс: Поглотитель Бездны</h2>
+        <h3>Лор</h3>
+        <p>Давным‑давно Эфириалы изломали границы материи и достигли Абсолютной Праны. Из их числа родились Поглотители — воины, способные стирать и воссоздавать реальность, поглощая и перенаправляя чистую эфирную силу.</p>
+        <h3>Роль и специализации</h3>
+        <ul class="spec-list">
+          <li><strong>Пожиратель Ядра (DPS):</strong> скорость, критические взрывы, заряды «Поглощения» ускоряют серии ударов.</li>
+          <li><strong>Щитодав (Танк):</strong> поглощение входящего урона, перенаправление в мощный абсорбирующий барьер.</li>
+          <li><strong>Экзарх Бездны (Поддержка):</strong> усиление щитов союзников и наложение аур поглощения.</li>
+        </ul>
+        <h3>Ресурс: Пульсация эфира</h3>
+        <p>Накопление при нанесении и блоках урона, расходуется на AOE‑взрывы, щиты и баффы.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Class abilities section -->
+  <section id="abilities" class="section abilities">
+    <h2>Уникальные классовые способности</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="assets/energy_absorption.png" alt="Поглощение эфира" />
+        <h3>Поглощение эфира</h3>
+        <p>До 5 зарядов: каждый даёт +2 % к урону и поглощает 3 % входящего урона.</p>
+      </div>
+      <div class="card">
+        <img src="assets/ethereal_shield.png" alt="Эфирный щит" />
+        <h3>Эфирный щит</h3>
+        <p>Создаёт барьер, поглощающий 20 % от максимального HP.</p>
+      </div>
+      <div class="card">
+        <img src="assets/ethereal_rift.png" alt="Эфирный разлом" />
+        <h3>Эфирный разлом</h3>
+        <p><strong>1‑е нажатие:</strong> рывок на 15 м вперёд, оставляет «Якорь разлома».<br><strong>2‑е нажатие</strong> (до 6 с): возвращение к якорю + 100 % AP AOE‑взрыв.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global mechanics section -->
+  <section id="global-mechanics" class="section global-mechanics">
+    <h2>Глобальные игровые механики</h2>
+    <ol class="mechanics-list">
+      <li>
+        <img class="mechanics-icon" src="assets/dynamic_affixes.png" alt="Аффиксы" />
+        <span class="item-number">1</span>
+        <div>
+          <strong>Динамические аффиксы подземелий:</strong>
+          еженедельные наборы «аффиксов» (Пульсация Бездны, Разложение Реальности, Эфирный Каннибализм и др.), меняющие логику босс‑бегов.
+        </div>
+      </li>
+      <li>
+        <img class="mechanics-icon" src="assets/phase_system.png" alt="Разломный ландшафт" />
+        <span class="item-number">2</span>
+        <div>
+          <strong>Фазовая система «Разломный Ландшафт»:</strong>
+          локации открываются/закрываются по расписанию и активности игроков; эфирные шторма влияют на монстров и дроп.
+        </div>
+      </li>
+      <li>
+        <img class="mechanics-icon" src="assets/legacy_system.png" alt="Наследие Поглотителя" />
+        <span class="item-number">3</span>
+        <div>
+          <strong>Система «Наследия Поглотителя»:</strong>
+          три линии долгосрочного прогресса: Рунные Свитки, Эфирные Линзы, Книга Поглощений.
+        </div>
+      </li>
+      <li>
+        <img class="mechanics-icon" src="assets/guild_fortress.png" alt="Гильдейская крепость" />
+        <span class="item-number">4</span>
+        <div>
+          <strong>Гильдейская крепость «Эфирион»:</strong>
+          постройка и развитие форт‑платформы, сезонные грабежи крепостей за ресурсы и бонусы.
+        </div>
+      </li>
+      <li>
+        <img class="mechanics-icon" src="assets/portal_network.png" alt="Портальная сеть" />
+        <span class="item-number">5</span>
+        <div>
+          <strong>Портальная сеть «Ядро Разлома»:</strong>
+          сбор «Фрагментов Ядра» для глобальных порталов и мгновенного перемещения между узловыми точками.
+        </div>
+      </li>
+      <li>
+        <img class="mechanics-icon" src="assets/ether_forge.png" alt="Эфирная кузня" />
+        <span class="item-number">6</span>
+        <div>
+          <strong>Эфирная кузня:</strong>
+          новый крафт — создавайте экипировку из «ядер» противников с реактивными зачарованиями, изменяющимися в бою.
+        </div>
+      </li>
+      <li>
+        <img class="mechanics-icon" src="assets/midnight_events.png" alt="Полночь Бездны" />
+        <span class="item-number">7</span>
+        <div>
+          <strong>Митап‑события «Полночь Бездны»:</strong>
+          ночные мировые бои (40 игроков) «город vs пустота» по особому расписанию сервера.
+        </div>
+      </li>
+      <li>
+        <img class="mechanics-icon" src="assets/synergy.png" alt="Синергия в PvP" />
+        <span class="item-number">8</span>
+        <div>
+          <strong>Синергия в PvP: «Мост Реальностей»:</strong>
+          захват якорей и контроль точек с динамическими порталами на аренах 3×3, 5×5.
+        </div>
+      </li>
+      <li>
+        <img class="mechanics-icon" src="assets/multi_dungeon.png" alt="Мультипик из подземелий" />
+        <span class="item-number">9</span>
+        <div>
+          <strong>Мультипик из подземелий:</strong>
+          комбинируйте «Эхо‑ключи» для открытия «сверх‑подземелий» с рандомными боссами и механиками.
+        </div>
+      </li>
+      <li>
+        <img class="mechanics-icon" src="assets/dynamic_affixes.png" alt="Календарь Светил" />
+        <span class="item-number">10</span>
+        <div>
+          <strong>Календарь Светил и Звёзд:</strong>
+          астрологические ивенты (полная луна +10 % к Пульсации эфира, метеорные дожди — огненные/ледяные аномалии).
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- New dungeons section -->
+  <section id="new-dungeons" class="section new-dungeons">
+    <h2>Новые подземелья (ур. 60–70)</h2>
+    <ol class="dungeons-list">
+      <li>
+        <img class="feature-icon" src="assets/phase_system.png" alt="Иконка Эхо Разлома" />
+        <span class="item-number">1</span>
+        <div>
+          <strong>Эхо Разлома (60–62):</strong>
+          коридоры с рваными порталами, управление кристальными щитами.
+        </div>
+        <img class="feature-image" src="assets/dungeon.png" alt="Эхо Разлома" />
+      </li>
+      <li>
+        <img class="feature-icon" src="assets/portal_network.png" alt="Иконка Гарнизон Мародёров" />
+        <span class="item-number">2</span>
+        <div>
+          <strong>Гарнизон Мародёров (63–65):</strong>
+          спасение заложников, разрушение кристальных барьеров.
+        </div>
+        <img class="feature-image" src="assets/aero.png" alt="Гарнизон Мародёров" />
+      </li>
+      <li>
+        <img class="feature-icon" src="assets/dynamic_affixes.png" alt="Иконка Храм Хаоса" />
+        <span class="item-number">3</span>
+        <div>
+          <strong>Храм Хаоса (66–68):</strong>
+          платформенные бои в невесомости, нестабильные порталы.
+        </div>
+        <img class="feature-image" src="assets/chertog.png" alt="Храм Хаоса" />
+      </li>
+      <li>
+        <img class="feature-icon" src="assets/legacy_system.png" alt="Иконка Склеп Вечного Пульса" />
+        <span class="item-number">4</span>
+        <div>
+          <strong>Склеп Вечного Пульса (65–67):</strong>
+          дополнительное подземелье с амплифицированными эффектами и сетовым лутом.
+        </div>
+        <img class="feature-image" src="assets/energy_absorption.png" alt="Склеп Вечного Пульса" />
+      </li>
+      <li>
+        <img class="feature-icon" src="assets/midnight_events.png" alt="Иконка Глубины Бездны" />
+        <span class="item-number">5</span>
+        <div>
+          <strong>Глубины Бездны (69–70):</strong>
+          финальное испытание с босс‑химерой из кристаллизованного эфира.
+        </div>
+        <img class="feature-image" src="assets/raid.png" alt="Глубины Бездны" />
+      </li>
+    </ol>
+  </section>
+
+  <!-- Epic raids section -->
+  <section id="epic-raids" class="section epic-raids">
+    <h2>Эпические рейды</h2>
+    <ol class="raids-list">
+      <li>
+        <img class="feature-icon" src="assets/raids_icon.png" alt="Иконка Бастион Утраченного Разума" />
+        <span class="item-number">1</span>
+        <div>
+          <strong>Бастион Утраченного Разума (10–25 игроков):</strong>
+          бои с Королём Скрежета и Повелителем Снов.
+        </div>
+        <img class="feature-image" src="assets/hero.png" alt="Бастион Утраченного Разума" />
+      </li>
+      <li>
+        <img class="feature-icon" src="assets/portal_network.png" alt="Иконка Сердце Бездны" />
+        <span class="item-number">2</span>
+        <div>
+          <strong>Сердце Бездны (10–25 игроков):</strong>
+          штурм энергоядра, бой с первообразным существом.
+        </div>
+        <img class="feature-image" src="assets/multi_dungeon.png" alt="Сердце Бездны" />
+      </li>
+      <li>
+        <img class="feature-icon" src="assets/synergy.png" alt="Иконка Предел Грез" />
+        <span class="item-number">3</span>
+        <div>
+          <strong>Предел Грез (10 игроков):</strong>
+          многомерное поле с трансформирующимися боссами.
+        </div>
+        <img class="feature-image" src="assets/phase_system.png" alt="Предел Грез" />
+      </li>
+    </ol>
+  </section>
+
+  <!-- PvP and social modes section -->
+  <section id="pvp" class="section pvp-section">
+    <h2>PvP и социальные режимы</h2>
+    <ul class="pvp-list">
+      <li>
+        <img class="feature-icon" src="assets/pvp_icon.png" alt="Иконка PvP Арены" />
+        <span class="item-number">•</span>
+        <div>
+          <strong>Арены «Эфирный Круг»:</strong>
+          с динамическими порталами и постоянно меняющимися тактиками.
+        </div>
+        <img class="feature-image" src="assets/ethereal_rift.png" alt="PvP Арены" />
+      </li>
+      <li>
+        <img class="feature-icon" src="assets/legacy_system.png" alt="Иконка Битвы за кристаллы" />
+        <span class="item-number">•</span>
+        <div>
+          <strong>Битвы за кристаллы:</strong>
+          открытые PvP‑зоны, захват ресурсов и контроль узлов.
+        </div>
+        <img class="feature-image" src="assets/aero.png" alt="Битвы за кристаллы" />
+      </li>
+      <li>
+        <img class="feature-icon" src="assets/community_icon.png" alt="Иконка Гильдейские турниры" />
+        <span class="item-number">•</span>
+        <div>
+          <strong>Гильдейские турниры:</strong>
+          рейтинги, командные сражения и особые награды для лучших.
+        </div>
+        <img class="feature-image" src="assets/chertog.png" alt="Гильдейские турниры" />
+      </li>
+    </ul>
+  </section>
+
+  <!-- Progress and collections section -->
+  <section id="progress" class="section progress-section">
+    <h2>Система прогресса и коллекций</h2>
+    <ul class="progress-list">
+      <li>
+        <img class="feature-icon" src="assets/progression_icon.png" alt="Иконка Титулы и достижения" />
+        <span class="item-number">•</span>
+        <div>
+          <strong>Титулы и достижения:</strong>
+          за подземелья и рейды, покоряйте вершины и получайте уникальные звания.
+        </div>
+        <img class="feature-image" src="assets/enchantments.png" alt="Титулы и достижения" />
+      </li>
+      <li>
+        <img class="feature-icon" src="assets/new_class.png" alt="Иконка Маунты и питомцы" />
+        <span class="item-number">•</span>
+        <div>
+          <strong>Маунты и питомцы:</strong>
+          эфирные скакуны, спрутоподобные спутники и другие существа Бездны.
+        </div>
+        <img class="feature-image" src="assets/aero.png" alt="Маунты и питомцы" />
+      </li>
+      <li>
+        <img class="feature-icon" src="assets/enchantments.png" alt="Иконка Косметика" />
+        <span class="item-number">•</span>
+        <div>
+          <strong>Косметика:</strong>
+          руны на оружии, сияющие доспехи, магические оболочки умений.
+        </div>
+        <img class="feature-image" src="assets/ether_forge.png" alt="Косметика" />
+      </li>
+    </ul>
+  </section>
+
+  <!-- Community and events section -->
+  <section id="community-events" class="section community-events">
+    <h2>Сообщество и ивенты</h2>
+    <ul class="community-list">
+      <li><span class="item-number">•</span> Официальный Discord и форум для тактики и поиска групп.</li>
+      <li><span class="item-number">•</span> Еженедельные турниры, стримы с разработчиками, розыгрыши «плюшек».</li>
+      <li><span class="item-number">•</span> Сезонные события: «Полная Луна Бездны», «Конклав Эфириалов», «Метеорный Шторм».</li>
+    </ul>
+  </section>
+
+  <!-- How to connect section -->
+  <section id="connect" class="section connect-section">
+    <h2>Как подключиться</h2>
+    <div class="connect-content">
+      <ol class="connect-list">
+        <li><span class="item-number">1</span> Скачайте сборку с официального сайта проекта.</li>
+        <li><span class="item-number">2</span> Зарегистрируйтесь на портале, выберите фракцию.</li>
+        <li><span class="item-number">3</span> Пройдите обучающий тур в «Эхо Разлома».</li>
+        <li><span class="item-number">4</span> Начните свой путь Поглотителя и станьте легендой Азерота!</li>
+      </ol>
+      <div class="connect-icon-wrapper">
+        <img src="assets/connect_icon.png" alt="Портальная сеть" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action section -->
+  <section id="cta" class="section cta">
+    <h2>Присоединяйтесь к Проекту «Поглотитель» сейчас!</h2>
+    <p>New class. New dungeons. New adventures!</p>
+    <a class="cta-button" href="#" role="button">Игровой клиент</a>
+    <div class="links">
+      <a href="#" class="link">Форум</a>
+      <a href="#" class="link">Discord</a>
+      <a href="#" class="link">Магазин</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Проект Поглотитель. Все права защищены.</p>
+  </footer>
+</body>
+</html>
